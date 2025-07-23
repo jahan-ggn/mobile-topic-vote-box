@@ -41,3 +41,7 @@
 .discourse-tags .discourse-tags__tag-separator:last-of-type {
   display: none !important;
 }
+
+body.category-wishlist:not(.tags-page) .topic-list-item.tag-Released {
+  display: none !important;
+}
