@@ -1,5 +1,5 @@
-# mobile-topic-vote-box
+# Mobile Topic Vote Box
 
 **Theme Summary**
 
-For more information, please see: **url to meta topic**
+Displays a vote box for topics on mobile devices when the user has voting permission. Optimized for clean and functional mobile UI.

@@ -1,0 +1,39 @@
+.topic-list-vote-box {
+  .voting-wrapper {
+    margin-right: 12px;
+    position: relative;
+  }
+  .vote-count-wrapper {
+    margin: 0 !important;
+    font-size: var(--font-up-2);
+    height: 40px;
+  }
+
+  .vote-options {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+    padding: 4px;
+  }
+  .vote-button {
+    margin-left: 0 !important;
+    margin-top: 0.35em;
+  }
+  .nonvote {
+    min-width: 70px;
+    min-height: 30px;
+  }
+  .vote .btn {
+    background: var(--header_primary-low-mid) !important;
+    cursor: default;
+  }
+}
+
+.discourse-tags a.list-vote-count,
+.discourse-tags .discourse-tags__tag-separator:last-of-type {
+  display: none !important;
+}
