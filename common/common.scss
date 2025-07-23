@@ -3,6 +3,7 @@
     margin-right: 12px;
     position: relative;
   }
+
   .vote-count-wrapper {
     margin: 0 !important;
     font-size: var(--font-up-2);
@@ -19,14 +20,17 @@
     z-index: 1000;
     padding: 4px;
   }
+
   .vote-button {
     margin-left: 0 !important;
     margin-top: 0.35em;
   }
+
   .nonvote {
     min-width: 70px;
     min-height: 30px;
   }
+
   .vote .btn {
     background: var(--header_primary-low-mid) !important;
     cursor: default;
