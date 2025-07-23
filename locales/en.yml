@@ -1,0 +1,6 @@
+en:
+  theme_metadata:
+    description: Displays a vote box for topics on mobile devices when the user has
+      voting permission. Optimized for clean and functional mobile UI.
+    settings:
+      example_setting: A description of a setting.
