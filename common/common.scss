@@ -37,6 +37,21 @@
   }
 }
 
+.topic-list-item {
+  .topic-list-data {
+    .topic-item-metadata {
+      .topic-item-stats {
+        .topic-item-stats__category-tags {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 0.25rem;
+        }
+      }
+    }
+  }
+}
+
 .discourse-tags a.list-vote-count,
 .discourse-tags .discourse-tags__tag-separator:last-of-type {
   display: none !important;
